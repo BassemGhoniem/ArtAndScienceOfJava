@@ -1,10 +1,14 @@
+/*File: Fibonacci.java
+ * ---------------------
+ * This program solves the programming exercise 4-9 in page 129
+ */
 import acm.program.*;
 public class Fibonacci extends ConsoleProgram {
 	public void run(){
 		println("This program lists the Fibonacci sequence.");
 		int x=0;
 		int y=1;
-		for(int i = 0;i <= 16;i++){
+		for(int i = 0;i < 16;i++){
 			if(i > 1){
 				int z = x+y;
 				println(z);
